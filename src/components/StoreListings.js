@@ -2,12 +2,30 @@ import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 export default function StoreListings() {
     return (
         <div style={{ margin: "auto" }}>
+            <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+                integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+                crossorigin="anonymous"
+                />
+            <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+
+            <script
+            src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+            crossorigin></script>
+
+            <script
+            src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+            crossorigin></script>
+
+            <script>var Alert = ReactBootstrap.Alert;</script>
             <h2 style={{ fontSize: "36px", lineHeight: "50px", marginTop: "20px", textAlign: "center", fontWeight: "normal" }}>Browse stores in Houston</h2>
             <Container style={{ marginTop: "50px", textAlign: "center" }}>
                 <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
